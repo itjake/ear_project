@@ -1,0 +1,117 @@
+.second__page__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.second__page__left {
+  background: #4C4C4C;
+  width: 50%;
+}
+
+.second__page__left__top {
+  padding-bottom: 60px;
+}
+
+.second__page__left__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.second__page__left__pretitle {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+}
+
+.second__page__left__info {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 82px;
+}
+
+.second__page__right {
+  background: #F5F5F5;
+  width: 50%;
+}
+
+.second__page__right__uptitle {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FF7900;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.second__page__right__uptitle::before {
+  position: absolute;
+  content: url("../svg/line.svg");
+  top: -7%;
+  left: -10%;
+}
+
+.second__page__right__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 132%;
+  color: #333333;
+  padding-bottom: 20px;
+}
+
+.second__page__right__pretitle {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FF7900;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.second__page__right__pretitle::before {
+  position: absolute;
+  content: url("../svg/check.svg");
+  top: 13%;
+  left: -6%;
+}
+
+.second__page__right__preinfo {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #717171;
+}
+
+.second__page__center {
+  position: relative;
+}
+
+.ear__item {
+  position: absolute;
+  top: -120px;
+  left: -270px;
+}

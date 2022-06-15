@@ -10,6 +10,14 @@
   padding: 15px;
 }
 
+.wrapper__s {
+  padding: 112px 110px;
+}
+
+.wrapper__ss {
+  padding: 91px 110px;
+}
+
 a {
   text-decoration: none;
 }
