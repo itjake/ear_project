@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+  margin-top: 70px; //навремя
 }
 
 .third__page__top__left__uptitle {
@@ -57,6 +58,7 @@
 .third__page__mid {
   background: #F5F5F5;
   padding: 50px 100px;
+  margin-bottom: 70px;
 }
 
 .third__page__mid__cards {
@@ -89,6 +91,12 @@
   line-height: 30px;
   color: #717171;
   width: 400px;
+}
+
+.third__page__bottom__partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
