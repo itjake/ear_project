@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .third__page__top__left__uptitle {
@@ -53,3 +53,42 @@
   color: #717171;
   width: 635px;
 }
+
+.third__page__mid {
+  background: #F5F5F5;
+  padding: 50px 100px;
+}
+
+.third__page__mid__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.third__page__mid__card__img {
+  margin-bottom: 25px;
+}
+
+
+.third__page__mid__card__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.third__page__mid__card__info {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #717171;
+  width: 400px;
+}
+
+
