@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  margin-top: 70px; //навремя
+  margin-top: 70px;
+/ / навремя
 }
 
 .third__page__top__left__uptitle {
@@ -97,6 +98,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
 
