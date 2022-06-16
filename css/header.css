@@ -17,13 +17,14 @@
 
 .header__top__left {
   position: relative;
+  padding-left: 30px;
 }
 
 .header__top__left::before {
   position: absolute;
   content: url("../svg/location.svg");
   top: 5%;
-  left: -15%;
+  left: 0%;
 }
 
 .header__top__right {
@@ -72,6 +73,7 @@
 
 .header__top__right__two__desc {
   position: relative;
+  padding-right: 12px;
 }
 
 .header__top__right__two__desc::before {
