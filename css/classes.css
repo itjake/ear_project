@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .wrapper__full {
   max-width: 1440px;
   margin: 0 auto;

@@ -1,7 +1,7 @@
 .fourth__page__top {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .fourth__page__left {
@@ -240,7 +240,7 @@
 }
 
 .fourth__page__bottom__scroll {
-  margin-left: 115px;
+  margin-left: 140px;
 }
 
 .fourth__page__bottom__scroll__line,
