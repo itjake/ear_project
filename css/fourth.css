@@ -82,13 +82,13 @@
 /****** cards *****/
 
 .fourth__page {
-  position: relative;
+  /*position: relative;*/
 }
 
 .fourth__page__mid {
-  position: absolute;
-  top: 80%;
-  /*left: 10%;*/
+  position: relative;
+  top: -70px;
+  left: -2%;
 }
 
 .fourth__page__mid__cards {
@@ -221,8 +221,50 @@
 
 /***** swiper *****/
 
-.swiper {
-  position: relative;
-  top: 50%;
+.fourth__page__bottom{
+  margin-bottom: 100px;
 }
+
+.fourth__page__bottom__swiper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fourth__page__bottom__scrolls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fourth__page__bottom__scroll {
+  margin-left: 115px;
+}
+
+.fourth__page__bottom__scroll__line,
+.fourth__page__bottom__scroll__main__line {
+  margin-left: 20px;
+}
+
+.fourth__page__bottom__button {
+  margin-right: 30px;
+}
+
+.fourth__page__bottom__btn__left {
+  background: #FFD7A0;
+  border-radius: 10px;
+  padding: 17px 20px;
+  border: none;
+  margin-right: 20px;
+}
+
+.fourth__page__bottom__btn__right {
+  background: #FF7900;
+  border-radius: 10px;
+  padding: 17px 20px;
+  border: none;
+}
+
 
