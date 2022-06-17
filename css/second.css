@@ -11,6 +11,25 @@
   padding: 50px 0px;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.second__page__left::before {
+  position: absolute;
+  content: url("../img/pattern.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+}
+
+.second__page__left::after {
+  position: absolute;
+  content: url("../img/pattern_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 52%;
+  left: 65%;
 }
 
 .second__page__left__top {
@@ -123,7 +142,7 @@
   left: 30%;
 }
 
-.ear__item{
+.ear__item {
   width: 400px;
 }
 
