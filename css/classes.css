@@ -5,7 +5,7 @@
 .wrapper__full {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 .wrapper {

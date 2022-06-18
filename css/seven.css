@@ -1,3 +1,7 @@
+.seven__page__content {
+  margin-bottom: 55px;
+}
+
 .seven__page__left__uptitle {
   font-family: 'Gilroy';
   font-style: normal;
@@ -46,3 +50,160 @@
   color: #717171;
   max-width: 410px;
 }
+
+.seven__page__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+.seven__page__card {
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  border-radius: 5px;
+}
+
+.seven__page__card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.seven__page__card__top__left__first {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  padding-bottom: 5px;
+}
+
+.seven__page__card__top__left__second {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: -0.165px;
+  text-transform: uppercase;
+  color: #999999;
+  padding-bottom: 8px;
+}
+
+.seven__page__card__mid__thumb {
+  width: 100%;
+}
+
+.seven__page__card__mid__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+
+.seven__page__card__mid__desc__first {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  position: relative;
+  padding-left: 30px;
+}
+
+.seven__page__card__mid__desc__first::before {
+  position: absolute;
+  content: url("../svg/desc__heart.svg");
+  top: -11%;
+  left: 0%;
+}
+
+.seven__page__card__mid__desc__second {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  position: relative;
+  padding-left: 50px;
+}
+
+.seven__page__card__mid__desc__second::before {
+  position: absolute;
+  content: url("../svg/comment.svg");
+  top: -17%;
+  left: 37%;
+}
+
+.seven__page__card__mid__desc__third {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  position: relative;
+  padding-left: 100px;
+}
+
+.seven__page__card__mid__desc__third::before {
+  position: absolute;
+  content: url("../svg/share.svg");
+  top: -15%;
+  left: 55%;
+}
+
+
+.seven__page__card__bottom {
+  padding: 10px;
+}
+
+.seven__page__card__bottom__title {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  padding-bottom: 5px;
+}
+
+.seven__page__card__bottom__info {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.165px;
+  color: #333333;
+  padding-bottom: 5px;
+  width: 238px;
+}
+
+.seven__bottom__special {
+  color: lightblue;
+}
+
+.seven__page__card__bottom__subifo {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.165px;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+}
+
