@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   /*flex-wrap: wrap;*/
+  margin-bottom: 30px;
 }
 
 .six_page__left__uptitle {
@@ -88,7 +89,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-left: 100px;
-  /*padding-bottom: 81px;*/
+  padding-bottom: 81px;
 }
 
 .six__page__swiper__left {
