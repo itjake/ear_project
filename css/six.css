@@ -1,0 +1,107 @@
+.six__page {
+  background: linear-gradient(180deg, #FFF8ED 0%, rgba(255, 248, 237, 0.5) 100%);
+}
+
+.six__page__content {
+  display: flex;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+
+.six_page__left__uptitle {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FF7900;
+  padding-bottom: 20px;
+}
+
+.six__page__left__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 132%;
+  color: #333333;
+  padding-bottom: 15px;
+  max-width: 424px;
+}
+
+.six__page__left__info {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #717171;
+  padding-bottom: 30px;
+  width: 373px;
+}
+
+.six__page__left__btn {
+  border: 1px solid #FF7900;
+  border-radius: 8px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  font-feature-settings: 'liga' off;
+  color: #FF7900;
+  background: none;
+  padding: 10px 65px;
+  margin-bottom: 50px;
+}
+
+.six__page__left__subinfo {
+  display: flex;
+  /*justify-content: flex-start;*/
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.six__page__swiper__left {
+  background: #FFD7A0;
+  border-radius: 10px;
+  padding: 17px 20px;
+  border: none;
+  margin-right: 20px;
+}
+
+.six__page__swiper__right {
+  background: #FF7900;
+  border-radius: 10px;
+  padding: 17px 20px;
+  border: none;
+}
+
+.six__page__left__descr {
+  margin-left: 50px;
+}
+
+.six__page__left__descr__first {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 64px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.six__page__left__descr__second {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #CCCCCC;
+  padding-left: 5px;
+  position: relative;
+}
