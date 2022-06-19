@@ -17,3 +17,7 @@
 a {
   text-decoration: none;
 }
+
+button:hover{
+  opacity: 0.75;
+}
