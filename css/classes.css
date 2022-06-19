@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
-button:hover{
+button:hover {
+  opacity: 0.75;
+}
+
+li:hover {
   opacity: 0.75;
 }

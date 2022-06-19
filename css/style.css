@@ -12,3 +12,104 @@
 @import "map.css";
 @import "footer.css";
 /*Gentium Plus*/
+
+@media screen and (max-width: 768px) {
+  .header__burger {
+    display: block;
+  }
+
+  .header__menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 10;
+    padding: 40px;
+    transform: translateX(100%);
+    transition: .2s all linear;
+  }
+
+  .header__menu__active {
+    transform: translateX(0);
+  }
+
+  .header__items {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__items:last-child {
+    margin-bottom: 0;
+  }
+
+  .header__nav__close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+  }
+
+  .header__nav__close__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #FF7900;
+    position: absolute;
+    top: 50%;
+  }
+
+  .header__nav__close__line:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .header__nav__close__line:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .header__menu__items {
+    flex-direction: column;
+  }
+
+  .header__menu__item {
+    padding-bottom: 25px;
+    color: black;
+  }
+
+  .header__menu__item__main {
+    margin-top: 35px;
+    padding-bottom: 25px;
+  }
+
+  .header__top__left {
+    display: none;
+  }
+
+  .header__top__desc {
+    justify-content: space-around;
+  }
+
+  .header__top__right__desc {
+    display: none;
+  }
+
+  .header__top__right__two__desc {
+    display: none;
+  }
+
+  .header__top__center {
+    z-index: 11;
+  }
+
+  .header__top__right__desc__two {
+    z-index: 11;
+  }
+
+  .header__top__right__desc__two::before {
+    content: "";
+  }
+}
