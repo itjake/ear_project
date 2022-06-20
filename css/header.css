@@ -135,7 +135,7 @@
 }
 
 .header__third__page__title {
-  width: 475px;
+  max-width: 475px;
   padding-top: 100px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -147,7 +147,7 @@
 }
 
 .header__third__page__info {
-  width: 425px;
+  max-width: 425px;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
@@ -190,6 +190,10 @@
   top: -170%;
   left: 87%;
   background: #00000080;
+}
+
+.linkoln__two {
+  display: none;
 }
 
 

@@ -24,7 +24,11 @@
 (function () {
   const getElem = document.querySelector('.header__link');
   const getElem2 = document.querySelector('.link');
+  const removeElem = document.querySelector("header__third__page__btn");
   getElem.addEventListener('click', () => {
     getElem2.classList.add("linkoln");
+  });
+  removeElem.addEventListener('click', () => {
+    getElem2.classList.remove("linkoln");
   })
 }());

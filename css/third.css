@@ -54,13 +54,14 @@
   font-size: 16px;
   line-height: 30px;
   color: #717171;
-  width: 635px;
+  max-width: 635px;
 }
 
 .third__page__mid {
   background: #F5F5F5;
   padding: 50px 100px;
   margin-bottom: 70px;
+
 }
 
 .third__page__mid__cards {
@@ -92,7 +93,7 @@
   font-size: 14px;
   line-height: 30px;
   color: #717171;
-  width: 400px;
+  max-width: 400px;
 }
 
 .third__page__bottom__partners {
