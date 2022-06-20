@@ -570,6 +570,9 @@
 }
 
 @media screen and (max-width: 320px) {
+  .fourth__page__mid__btn {
+    padding: 15px 48px 16px 88px;
+  }
 
   .header__third__page__title {
     font-size: 34px;
