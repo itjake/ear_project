@@ -125,7 +125,7 @@
   position: relative;
   top: -15%;
   left: 22%;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .fifth__page__right__first::before {

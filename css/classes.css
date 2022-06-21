@@ -25,3 +25,8 @@ button:hover {
 li:hover {
   opacity: 0.75;
 }
+
+.wrapper__sss {
+  max-width: 1200px;
+  margin: 0 auto;
+}
